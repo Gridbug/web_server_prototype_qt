@@ -25,3 +25,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 LIBS += -L"../lib" -lqttpserver -lnode_native -luv -lhttp_parser
 INCLUDEPATH += "../include/qttp_server"
+
+message('Including config files')
+include($$PWD/config/web_config.pri)

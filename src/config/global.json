@@ -3,7 +3,7 @@
     "bindPort": 8080,
     "swagger": {
             "isEnabled": true,
-            "host": "127.0.0.1:8080",
-            "basePath": "/swagger"
+            "host": "127.0.0.1",
+            "basePath": "/swagger",
     },
 }
